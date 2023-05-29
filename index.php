@@ -1,21 +1,10 @@
 <?php
-  //  $texto = "Mundo";
-
-    //const MENSAJE = "mundo";
-
-//    printf("%s %s", $texto );
-
-declare (strict_types = 1);
-echo 'Hola,mundo!';
-
-
-
-
-
-
-
-
-
+//Aquí va todo el codigo de php
+//echo "texto a imprimir";
+$texto = "Mundo";
+$mensaje = sprintf ("Hola %s", $texto);
+echo $mensaje;
+//printf(" Hola %s", $texto);
 
 ?>    
 
